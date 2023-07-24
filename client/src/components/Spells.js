@@ -28,7 +28,6 @@ const Spells = ({auth, setSpells}) => {
         })}
 
         <BuySpellModal show={modal} spell={modalSpell} toggleShow={setModal}/>
-
     </div>
 }
 

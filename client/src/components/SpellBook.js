@@ -25,7 +25,6 @@ const SpellBook = ({ type }) => {
     const selectedGame = useSelector(state => state.user.selectedGame)
     const connection = useSelector(state => state.room.connection)
     const [selectedLoadOut, setSelectedLoadOut] = useState(0)
-   
    //Sets the user's spells to the currently selected loadout's spell list
     useEffect(() => {
         dispatch(clearSpells())
